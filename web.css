@@ -1,0 +1,253 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+    height:90vh;
+    width:100vw;
+    background:linear-gradient(grey,rgb(216, 26, 57));
+} 
+.nav1{
+    background-color:#474747;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.ram{
+    display: flex;
+    flex-direction: row;
+}
+.ram img{
+    
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 35px; 
+}
+.back{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 15px;
+    width: 110px;
+    height: 60px;
+    text-align: center;
+
+}
+a{
+    line-height: 60px;
+
+}
+.content1 span{
+    display: inline-block;
+    width: 60px;
+    height:60px;
+    border-left: 1px solid white;
+}
+.content1 span i{
+    margin-top:13px;
+    font-size: 33px;
+    margin-left: 10px;
+}
+.content1 span:hover{
+background-color: rgba(0, 0, 0, 0.808);
+color: white;}
+
+.content3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+input{
+    background-color: rgba(255,255,255,0.25);
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+
+}
+::placeholder{
+    color: aliceblue;
+    font-size: 18px;
+}
+ .content4{
+    color: rgba(255,255,255,0.25);
+    position: absolute;
+    font-size: 20px;
+    top: 92px;
+    left: 217px;
+} 
+h4{
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 23px;
+}
+h4:hover{
+    color: rgb(109, 109, 236);
+}
+h3{
+    color: aliceblue;
+    margin-top:15px ;
+    margin-left: 150px;
+}
+h3:hover{
+    color: rgb(117, 117, 238);
+
+}
+.bf button{
+    background-color: #4DB7FE ;
+    color: aliceblue;
+    font-size: 18px;
+    height: 43px;
+    margin-left: 70px;
+    margin-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.bf button:hover{
+    background-color: rgb(61, 61, 199) ;
+}
+.content6{
+    color: aliceblue;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-family: cursive;
+}
+.content7{
+    background-color:rgba(255,255,255,0.2);
+    width: 35%;
+    height: 95px;
+    margin-left: 25px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+
+}
+.content7 input{
+    background-color: #faf4f4;
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    border-radius: 7px;
+
+}
+.bd::placeholder{
+    color: #474747;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.bg{
+    position: absolute;
+    left: 60px;
+    top:398px;
+}
+.bh{
+    position: absolute;
+    left: 255px;
+    top: 398px;
+}
+.content7 button{
+    background-color:#4DB7FE ;
+    color: #faf4f4;
+    font-size: 15px;
+    height: 40px;
+    width: 5%;
+    position: absolute;
+    top: 389px;
+    left: 430px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+.content7 button:hover{
+    background-color: rgb(92, 92, 240);
+}
+.content8 button{
+   background-color:rgba(255,255,255,0.2) ;
+   color: #faf4f4;
+   font-size: 15px;
+   height: 40px;
+   width: 7%;
+   margin-top: 65px;
+   margin-left: 28px;
+   border-radius:20px ;
+   border: none;
+   outline: none;
+}
+.content8 button:hover{
+    background-color: rgb(83, 83, 250);
+}
+.content9{
+    background-color: rgba(255,255,255,0.2);
+    width: 35%;
+    height: 400px;
+    position: absolute;
+    right: 90px;
+    top: 190px;
+    border-radius: 60px 0px 60px 0px;
+}
+ .content9 h1{
+      text-align: center;
+      padding-top: 55px;
+      font-family:  cursive;
+
+}
+.content9 input{
+    background-color: transparent;
+    color: #faf4f4;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid rgb(39, 37, 37);
+}
+.content9 h3{
+    text-decoration: underline;
+    color: #110b0b;
+}
+.content10{
+    background-color: #faf4f4;
+    width: 100%;
+    height: 400px;
+    margin-top: 95px;
+
+}
+.content10 h1{
+    color:rgb(57, 16, 95);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 33px;
+}
+.content11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.content11 img{
+    width: 130px;
+     height: 130px; 
+}
+
+
+.content12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(57, 16, 95) ;
+    margin-top: 35px;
+    margin-left:-10px;
+}
